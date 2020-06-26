@@ -16,13 +16,13 @@ Here's some of the core android technology stack applied in this application:
 - Local data storage using [Room](https://developer.android.com/topic/libraries/architecture/room).
 - Netowrk library using [Retrofit](https://square.github.io/retrofit/).
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture).
-- [Navigation component](https:// .android.com/guide/navigation/navigation-getting-started).
+- [Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started).
 - Reactive paradigm using [RxJava](https://github.com/ReactiveX/RxJava).
 - Unit test (JUnit/Mockito)
 
 Discussions
 -
-Refer to the issues section: https://github.com/MohamedHatemAbdu/weather-logger/issues
+Refer to the issues section: https://github.com/MohamedHatemAbdu/random-quote/issues
 
 
 Social Media
