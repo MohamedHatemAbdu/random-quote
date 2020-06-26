@@ -42,7 +42,7 @@ class QuoteListFragment : Fragment() {
     private val snackBar by lazy {
         Snackbar.make(
             srlQuoteList,
-            getString(R.string.quotes_list_no_cached_data),
+            getString(R.string.network_error),
             Snackbar.LENGTH_INDEFINITE
         )
     }
@@ -85,10 +85,10 @@ class QuoteListFragment : Fragment() {
         resource?.let {
             updateLoadingState(it.state)
 
-            it.data?.let {quote ->
+            it.data?.let { quote ->
                 adapter.submitList(listOf(quote))
             }
-            it.message?.let { showSnackBar(it) }
+            it.message?.let { showSnackBar(getString(R.string.network_error)) }
         }
     }
 

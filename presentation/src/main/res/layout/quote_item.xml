@@ -5,8 +5,6 @@
 
     <data>
 
-        <import type="com.me.presentation.base.utils.DateUtilsKt" />
-
         <variable
             name="item"
             type="com.me.domain.quote.entity.QuoteEntity" />

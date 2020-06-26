@@ -2,7 +2,7 @@ ext {
 
 
     // Android
-    minSdkVersion = 16
+    minSdkVersion = 23
     targetSdkVersion = 29
     androidCompileSdkVersion = 29
     buildToolsVersion = "29.0.0"
@@ -21,8 +21,7 @@ ext {
     recyclerviewVersion = '1.1.0'
     cardViewVersion = '1.0.0'
 
-    //material dialogs
-    materialDialogVersion = '3.1.1'
+
 
     //recycler view animators
     recyclerviewAnimatorsVersion = '3.0.0'
@@ -120,7 +119,6 @@ ext {
             material              : "com.google.android.material:material:$materialVersion",
             recyclerview          : "androidx.recyclerview:recyclerview:$recyclerviewVersion",
             lifeCycleExtensions   : "androidx.lifecycle:lifecycle-extensions:$lifeCycleExtensionsVersion",
-            materialDialogsCore   : "com.afollestad.material-dialogs:core:$materialDialogVersion",
             recyclerviewAnimators  : "jp.wasabeef:recyclerview-animators:$recyclerviewAnimatorsVersion",
 
             navigationFragmentKtx : "androidx.navigation:navigation-fragment-ktx:$navigationControllerVersion",
