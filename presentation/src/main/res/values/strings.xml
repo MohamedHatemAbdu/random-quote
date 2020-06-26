@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Random Quote</string>
+
+    <string name="quote_list_fragment_label">Random Quote</string>
+
+    <!-- quotes_list-->
+    <string name="quotes_list_no_cached_data">There is no cached data,
+        pull down to get new random quote</string>
+    <string name="quote_list_snack_bar_action">Ok</string>
+
+
+</resources>
